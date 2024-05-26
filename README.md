@@ -1,5 +1,8 @@
 # spring-cloud-gateway-hystrix
 
+Includes:
+	An example for Zipkin
+	Fallback processing using cloud gateway
 
 API-GateWay
 -----------
