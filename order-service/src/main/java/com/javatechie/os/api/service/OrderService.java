@@ -42,8 +42,7 @@ public class OrderService {
 
         response = paymentResponse.getPaymentStatus().equals("success") ? "payment processing successful and order placed" : "there is a failure in payment api , order added to cart";
         logger.info("Order Service getting Response from Payment-Service : "+new ObjectMapper().writeValueAsString(response));
-        //We have not created database table, hence it will fail at below line and Fallback controller will be called
-        //repository.save(order);
+        repository.save(order);
         return new TransactionResponse(order, paymentResponse.getAmount(), paymentResponse.getTransactionId(), response);
     }
 }
