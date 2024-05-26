@@ -2,9 +2,9 @@
 
 Includes:
 	
- An example for Zipkin
-	
- Fallback processing using cloud gateway
+Distributed tracing using Zipkin and Sleuth
+
+Fault Tolerance using Hystrix
 
 API-GateWay
 -----------
