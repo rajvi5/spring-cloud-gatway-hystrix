@@ -1,3 +1,4 @@
+#Hystrix configurations - circuit breaker, fallback methods
 spring:
   application:
     name: GATEWAY-SERVICE

@@ -1,0 +1,5 @@
+com\simform\ps\api\entity\Payment.class
+com\simform\ps\api\service\PaymentService.class
+com\simform\ps\api\repository\PaymentRepository.class
+com\simform\ps\api\controller\PaymentController.class
+com\simform\ps\api\PaymentServiceApplication.class

@@ -2,9 +2,14 @@
 
 Includes:
 	
-Distributed tracing using Zipkin and Sleuth
-
-Fault Tolerance using Hystrix
+1. Distributed tracing using Zipkin and Sleuth.  
+Reference: https://www.youtube.com/watch?v=M19XC0zJUrA
+https://www.youtube.com/watch?v=qXXgxZhwEuc
+2. Fault Tolerance using Hystrix and Resilience 4J 
+Circuit breaker implementation - cloud-gateway
+Reference: https://www.youtube.com/watch?v=b6R4dElDtRc
+3. Centralized logging using AOP - order-service 
+Reference: https://www.youtube.com/watch?v=RVvKPP5HyaA
 
 API-GateWay
 -----------
@@ -41,7 +46,7 @@ Json Response :
 
 ```
 ```bash
-URL : http://localhost:8989/payment/26
+URL : http://localhost:8989/payment/103
 HTTP Method : GET
 ```
 Json Response :
@@ -54,3 +59,18 @@ Json Response :
     "amount":4000
 }
 ```
+
+```bash
+URL : http://localhost:8989/order/getOrders
+HTTP Method : GET
+```
+````
+returns all orders
+````
+```bash
+URL : http://localhost:8989/payment/getPayments
+HTTP Method : GET
+```
+````
+returns all payments
+````
