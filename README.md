@@ -5,6 +5,8 @@ Includes:
 1. Distributed tracing using Zipkin and Sleuth.  
 Reference: https://www.youtube.com/watch?v=M19XC0zJUrA
 https://www.youtube.com/watch?v=qXXgxZhwEuc
+Zipkin url: http://localhost:9411/zipkin
+Eureka url: http://localhost:8761
 2. Fault Tolerance using Hystrix and Resilience 4J 
 Circuit breaker implementation - cloud-gateway
 Reference: https://www.youtube.com/watch?v=b6R4dElDtRc
